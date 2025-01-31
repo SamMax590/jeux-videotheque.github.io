@@ -6,56 +6,88 @@
         <link href="styles/styles.css" rel="stylesheet">
     </head>
     <body>
-       <header>
-        <h1>Jeux-vidéothèque</h1>
+       <header class="title-yellow">
+        <div class="container">
+            <h1>
+                <a href="index.html">
+                    Jeux-vidéothèque
+                </a>
+            </h1>
+        </div>
        </header>
        <main>
-        <h1>League of Legends</h1>
+        <div class="container">
+            <h2 class="subtitle title-yellow">League of legends</h2>
+        <div class="text-center">
         <div>
             <img src="images/lol-1.png" alt="League of Legends 1" width="1164" height="546">
-        </div>
-        <p> League of Legends est un jeu de stratégie en équipe dans lequel deux équipes de 
+        <div class="content">
+        <p class="text-justify">
+            <strong>
+             League of Legends est un jeu de stratégie en équipe dans lequel deux équipes de 
             cinq champions s'affrontent pour détruire la base adverse. Faites votre choix parmi 
             plus de 140 champions disponibles, partez au combat, éliminez vos adversaires avec 
             adresse et abattez les tourelles ennemies pour décrocher la victoire.
+            </strong>
         </p>
+        </div>
+        </div>
         <div>
             <img src="images/lol-2.png" alt="League of Legends 2" width="574" height="323">
         </div>
-        <h2>Gameplay</h2>
-        <div>
-            <img src="images/lol-3.png" alt="League of Legends 3" width="220" height="201">
-            <h4>DÉTRUIRE LA BASE</h4>
-            <p> Le Nexus est le cœur de la base de chaque équipe. Détruisez le Nexus ennemi 
-                en premier pour remporter la partie.
-            </p>
         </div>
-        <div>
-            <img src="images/lol-4.jpg" alt="League of Legends 4">
-            <h3>SE FRAYER UN CHEMIN</h3>
-            <p> Votre équipe doit détruire toutes les défenses d'au moins une voie pour 
-                pouvoir atteindre le Nexus ennemi. Ces structures défensives qui bloquent 
-                votre route sont appelées des tourelles et des inhibiteurs. Chaque voie possède 
-                trois tourelles et un inhibiteur, et chaque Nexus est gardé par deux tourelles.
-            </p>
+        <h2 class="subtitle title-yellow">Gameplay</h2>
+        <div class="d-flex">
+            <div class="width-410">
+                <img src="images/lol-3.png" alt="League of Legends 3" width="220" height="201">
+                <h2>DÉTRUIRE LA BASE</h2>
+                <p>
+                    <strong>
+                    Le Nexus est le cœur de la base de chaque équipe. Détruisez le Nexus ennemi 
+                    en premier pour remporter la partie.
+                    </strong>
+                </p>
+            </div>
+
+            <div class="width-590">
+                <img src="images/lol-4.png" alt="League of Legends 4">
+                <h2>SE FRAYER UN CHEMIN</h2>
+                <p> 
+                 <strong>
+                    Votre équipe doit détruire toutes les défenses d'au moins une voie pour 
+                    pouvoir atteindre le Nexus ennemi. Ces structures défensives qui bloquent 
+                    votre route sont appelées des tourelles et des inhibiteurs. Chaque voie possède 
+                    trois tourelles et un inhibiteur, et chaque Nexus est gardé par deux tourelles.
+                 </strong>
+                </p>
+            </div>
         </div>
-        <h1>Découvrir nos autres articles</h1>
-        <div>
-            <a href="page-4.html">
-                <img src="images/call-of-duty-1.png" alt="call of duty 1" width="574" height="319">
-            </a>
-        <span>FPS</span>
-        <h3>Call of Duty: Black Ops 6</h3>
-        <h3>27 décembre 2024</h3>
+        <hr>
+        <h1 class="text-center">Découvrir nos autres articles</h1>
+        <div class="d-flex">
+            <div class="card">
+                <a href="page-4.html" class="link">
+                    <span class="tag tag-secondary">FPS</span>
+                    <img src="images/call-of-duty-1.png" alt="Call of Duty:Black ops 6">
+                </a>
+                <div class="card-content">
+                    <h3>Call of Duty:Black Ops 6</h3>
+                    <h3>27 Décembre 2024</h3>
+                </div>
+            </div>
+            <div class="card">
+                <a href="#" class="link">
+                    <span class="tag tag-fourth">Horreur</span>
+                    <img src="images/inscryption-1.png" alt="Inscryption">
+                </a>
+                <div class="card-content">
+                    <h3>Inscryption</h3>
+                    <h3>5 Décembre 2024</h3>
+                </div>
+            </div>
         </div>
-        <div>
-            <a href="page-6.html">
-                <img src="images/inscryption-1.png" alt="Inscryption 1" width="574" height="346">
-            </a>
-            <span>Horreur</span>
-            <h3>Inscryption</h3>
-            <h3>5 Décembre 2024</h3>
-        </div>
-       </main>
+    </div>
+    <footer class="title-yellow"></footer>
+    </main>
     </body>
 </html>

@@ -130,6 +130,14 @@ footer {
     width: 500px;
 }
 
+.width-410 {
+    width: 410px;
+}
+
+.width-590 {
+    width: 590px;
+}
+
 .height-max {
     height: 250px;
 }
@@ -161,4 +169,8 @@ footer {
 
 .title-brown {
     background-color: #A25D02;
+}
+
+.title-yellow {
+    background-color: #E9BA0E;
 }

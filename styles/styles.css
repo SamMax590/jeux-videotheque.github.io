@@ -138,6 +138,14 @@ footer {
     width: 590px;
 }
 
+.width-574 {
+    width: 574px;
+}
+
+.card-3 {
+ padding: 20px;
+}
+
 .height-max {
     height: 250px;
 }
@@ -173,4 +181,8 @@ footer {
 
 .title-yellow {
     background-color: #E9BA0E;
+}
+
+.title-orange {
+    background-color: #E9500E;
 }

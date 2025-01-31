@@ -126,6 +126,10 @@ footer {
     justify-content: space-between;
 }
 
+.card-2 {
+    width: 500px;
+}
+
 .height-max {
     height: 250px;
 }
@@ -150,6 +154,11 @@ footer {
 .blue {
     background-color: #024DA2;
 }
+
 .title-red{
     background-color: #A22402;
+}
+
+.title-brown {
+    background-color: #A25D02;
 }
